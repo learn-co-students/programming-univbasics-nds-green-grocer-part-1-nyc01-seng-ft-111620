@@ -25,7 +25,7 @@ describe "Grocer" do
 
   describe "#find_item_by_name_in_collection takes two arguments: a String and an AoH" do
     let(:test_cart) do
-      [
+       [
         { :item => "DOG FOOD" },
         { :item => "WINE" },
         { :item => "STRYCHNINE" }
